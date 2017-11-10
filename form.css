@@ -1,0 +1,101 @@
+
+/* */
+/* the body div */
+
+body{
+    margin:40px;
+}
+/* the header div */
+header{
+    display: block;
+}
+
+
+.vertical-line{
+    width: 3px; /* Line width */
+    background-color: rgb(116, 5, 5); /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+    height: 143px;
+    
+}
+
+/*heading on the left */
+.LeftHeader{
+    float:right;
+    clear:right;
+}
+
+
+/* the div containing both image and logo*/
+.ImgLogo{
+ width: 70px;
+}
+
+/* military logo on top*/
+.militaryLogo{
+    padding:0;
+    margin:10px;
+    display: block;
+}
+
+/* heading with the logo on top header div*/
+.militaryHeader{
+    padding:0;    
+    margin:5px 10px 5px 15px;
+    width: 120px;
+}
+
+section{
+    background-color: rgb(219, 216, 216);
+    padding-top: 5px;
+    height: 400px;
+}
+
+.boldtexts{
+    margin-bottom: 20px;
+}
+
+section li{
+    list-style: none;
+}
+
+p a{
+    color: black;
+}
+
+footer{
+    float: right;
+    clear: right;
+    margin-bottom: 20px;
+    
+}
+
+#p1{
+    display: inline;
+    margin-right: 35px; 
+}
+
+
+#p2{
+    display: inline;
+    font-weight: bold;
+}
+
+
+.websiteList{
+
+    width: 7%;
+    text-align: left;
+}
+
+#websiteDiv{
+    width: 42%;
+    
+}
+
+.problem{
+    
+}
